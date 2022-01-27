@@ -8,8 +8,8 @@ List<Cast> castData = [];
 List<String> imgUrls = [];
 final tmdb = TMDB(
   //TMDB instance
-  ApiKeys('918bbc1462ad59f3bb90d7465984c84c',
-      'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MThiYmMxNDYyYWQ1OWYzYmI5MGQ3NDY1OTg0Yzg0YyIsInN1YiI6IjYxZTcwOGQ5OTBlYTRiMDA5Y2FlODYxOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.bo3GRrHm1lc2XxVkiNv6rdbJ2bxOjmlPWpRr5bzHwBw'), //ApiKeys instance with your keys,
+  ApiKeys('<secret-key>',
+      '<public-key>'), //ApiKeys instance with your keys,
 );
 TextStyle tabTextStyle = GoogleFonts.lato(
     textStyle: const TextStyle(
